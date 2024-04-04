@@ -1,0 +1,19 @@
+.header {
+  padding-top: 35px;
+}
+
+.header__logo {
+  display: block;
+  max-width: 270px;
+  margin: auto;
+
+}
+
+/* consultas de medios */
+
+@media screen and (max-width: 400px) {
+  .header__logo {
+    width: 100%;
+    max-width: 200px;
+  }
+}
