@@ -1,0 +1,66 @@
+.places {
+  max-width: 987px;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.place {
+  max-width: 984px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+
+}
+
+.place__header {
+  max-width: 460px;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+}
+
+.place__artist {
+  max-width: 456px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.place__artist_style {
+  font-size: 12px;
+  line-height: 14.52px;
+  color: #aaaaaa;
+}
+
+.place__img {
+  max-width: 460px;
+}
+
+.place__text1 {
+  max-width: 484px;
+  text-align: justify;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29.34px;
+
+}
+
+.place__link {
+  max-width: 355px;
+  padding: 10px 20px;
+  background-color: #0278fe;
+  color: #ffff;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21.78px;
+  text-decoration: none;
+}
+
+.place__text2 {
+  max-width: 484px;
+  text-align: justify;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29.34px;
+}
