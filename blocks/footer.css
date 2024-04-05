@@ -1,0 +1,14 @@
+.footer{
+  margin-top: 70px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+@media screen and (max-width: 400px) {
+  .footer{
+    line-height: 14px;
+  }
+}

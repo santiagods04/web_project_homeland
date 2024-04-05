@@ -19,12 +19,15 @@
   line-height: 76px;
 }
 
+
+
 .place__artist {
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   align-self: flex-end;
 }
+
 
 .place__artist_style {
   font-size: 12px;
@@ -93,7 +96,7 @@
     font-size: 18px;
     line-height: 22px;
     align-self: flex-end;
-    margin: auto;
+
   }
 
   .place__text{
@@ -137,6 +140,7 @@
     font-size: 18px;
     line-height: 22px;
     align-self: flex-end;
+    margin: auto;
   }
 
   .place__img {
