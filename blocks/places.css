@@ -5,26 +5,25 @@
 }
 
 .place {
-  max-width: 984px;
+  margin-top: 70px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  gap: 10px;
-
+  grid-template-rows: auto 460px auto;
+  row-gap: 48px;
+  column-gap: 40px;
 }
 
 .place__header {
-  max-width: 460px;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
 }
 
 .place__artist {
-  max-width: 456px;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
+  align-self: flex-end;
 }
 
 .place__artist_style {
@@ -37,17 +36,27 @@
   max-width: 460px;
 }
 
-.place__text1 {
+.place__texts{
+  grid-row: 2/4;
+  grid-column: 2/3;
+
+}
+
+.place__text{
   max-width: 484px;
   text-align: justify;
   font-weight: 400;
   font-size: 18px;
   line-height: 29.34px;
+  margin-bottom: 20px;
+}
 
+.place__text:last-of-type{
+  margin: 0;
 }
 
 .place__link {
-  max-width: 355px;
+  max-width: 315px;
   padding: 10px 20px;
   background-color: #0278fe;
   color: #ffff;
@@ -55,12 +64,102 @@
   font-size: 18px;
   line-height: 21.78px;
   text-decoration: none;
+  align-self: flex-start;
+  text-align: center;
 }
 
-.place__text2 {
-  max-width: 484px;
-  text-align: justify;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 29.34px;
+@media screen and (max-width: 1000px) {
+
+  .places{
+    max-width: 720px;
+  }
+
+  .place{
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto 320px auto;
+    row-gap: 48px;
+    column-gap: 40px;
+  }
+  .place__header{
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 46px;
+  }
+
+  .place__artist {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    align-self: flex-end;
+    margin: auto;
+  }
+
+  .place__text{
+    margin-bottom: 10px;
+  }
+
+  .place__text:last-of-type{
+    margin-bottom: 0;
+  }
+
+  .place__img {
+    max-width: 340px;
+  }
+
+  .place__link {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+
+  .places{
+    max-width: 320px;
+  }
+
+  .place{
+    display: flex;
+    flex-direction: column;
+  }
+  .place__header{
+    margin: auto;
+    max-width: 288px;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .place__artist {
+    max-width: 288px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    align-self: flex-end;
+  }
+
+  .place__img {
+    max-width: 340px;
+  }
+
+  .place__text{
+    max-width: 288px;
+    margin: auto;
+    margin-bottom: 8px;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29.34px;
+  }
+
+  .place__text:last-of-type{
+    margin: auto;
+    margin-bottom: 0;
+  }
+
+  .place__link {
+    margin: auto;
+    font-size: 14px;
+  }
 }
