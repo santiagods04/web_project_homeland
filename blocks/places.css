@@ -18,18 +18,20 @@
   font-size: 72px;
   line-height: 76px;
 }
+.place__info-artist{
+  align-self: flex-end;
+}
+
+.place__artist-head {
+  font-size: 12px;
+  line-height: 14.52px;
+  color: #aaaaaa;
+}
 
 .place__artist {
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  align-self: flex-end;
-}
-
-.place__artist_style {
-  font-size: 12px;
-  line-height: 14.52px;
-  color: #aaaaaa;
 }
 
 .place__img {
@@ -92,14 +94,6 @@
     line-height: 46px;
   }
 
-  .place__artist {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    align-self: flex-end;
-
-  }
-
   .place__text{
     margin-bottom: 10px;
   }
@@ -135,7 +129,7 @@
     line-height: 35px;
   }
 
-  .place__artist {
+  .place__info-artist {
     max-width: 288px;
     font-weight: 400;
     font-size: 18px;
