@@ -20,3 +20,5 @@ Consta de 7 secciones
 - cover: Finaliza la etiqueta main con esta ultima sección la cual es cover, que consta de 1 image de fondo, 1 contenido de 3 parrafos y 1 link que dirge a la pagina planteada, todo acomodado con margenes y propiedades de posicionamiento.
 
 -footer: la página finaliza con esta etiqueta, la cual consta de un simbolo copyright y nombre de autor.
+
+link git hub pages: https://santiagods04.github.io/web_project_homeland/
